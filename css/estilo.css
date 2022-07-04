@@ -1,0 +1,899 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+hr {
+  width: 90%;
+  border-width: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.logotipo .logo {
+  font-size: 22px;
+  font-family: 'azonix', sans-serif;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #ba0c2f;
+}
+
+.itemsMenu {
+  font-family: 'nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color:white;
+}
+
+.itemsMenu:hover {
+  font-weight: 800;
+}
+
+.itemsMenuRedes:hover {
+  color: #ba0c2f !important;
+  transform: scale(1.5);
+}
+
+.principal {
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.slide1 {
+  height: 100vh;
+  background-image: url(../img/asesoramiento.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide2 {
+  height: 100vh;
+  background-image: url(../img/direccionYproyeccion.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide3 {
+  height: 100vh;
+  background-image: url(../img/disenoDeInteriores.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.posicionTexto {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondoTexto {
+  background-color: rgba(236, 143, 16, 0.6);
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*PROYECTOS*/
+.trabajos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trabajo {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+
+}
+
+.trabajo:hover {
+  filter: grayscale(100%);
+  transform: scale(0.95);
+  transition-duration: 1s;
+  color: black
+}
+
+.proyectos {
+  width: 90%;
+}
+
+.textoTrabajo1 h4 {
+  font-family: 'nunito', sans-serif;
+  padding-top: 10px;
+}
+
+.proyectosTextoSlider  {
+  font-family: 'nunito', sans-serif;
+  font: 25px;
+  font-weight: 600;
+}
+
+/*QUIENES SOMOS*/
+.acercaDe {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+/*QUE HACEMOS*/
+
+.queHacemos h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #ba0c2f;
+}
+
+.queHacemosCosas h4 {
+  text-align: center;
+  font-family: 'nunito', sans-serif;
+  color: #ba0c2f;
+  font-weight: 700;
+}
+
+/*BOTÓN WHATSAPP*/
+.whatsapp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 30px;
+  right: 20px;
+  background-color: #25d366;
+  opacity: 0.8;
+  color: #FFF;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp:hover {
+  opacity: 1;
+  color: white;
+}
+
+.whatsapp-icon {
+  margin-top: 10px;
+  color: white;
+}
+
+/*BOTÓN VOLVER ARRIBA*/
+.btn-volver-arriba {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  z-index: 99999;
+  margin-left: -60px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.btn-volver-arriba a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn-volver-arriba a i {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 40px;
+}
+
+/*FOOTER*/
+footer {
+  padding-top: 30px;
+}
+
+footer div .logo {
+  font-family: 'azonix', sans-serif;
+  font-size: 30px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #ba0c2f;
+}
+
+footer div p {
+  font-family: 'nunito', sans-serif;
+  font-size: 20px;
+}
+
+.direccion {
+  font-size: 16px;
+}
+
+footer .telefonos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .telefonos p {
+  font-size: 16px;
+}
+
+footer div a {
+  color: white;
+  font-size: 16px;
+  font-family: 'nunito', sans-serif;
+}
+
+footer div a:hover {
+  color: #ba0c2f;
+  font-weight: 500;
+  text-decoration: none;
+
+}
+
+.menuRedesFooter ul li a i:hover {
+  color: #ba0c2f;
+  transform: scale(1.2);
+  transition-duration: 1s;
+
+}
+
+.firma p,
+.firma p a {
+  font-size: 14px;
+  display: inline;
+  padding: 5px;
+  color: wheat;
+  text-decoration: none;
+}
+
+footer span p:hover {
+  background-color: grey;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer span p a:hover {
+  color: #ba0c2f;
+}
+
+.casasPage {
+  padding-top: 200px;
+  background-image: url(../img/casas/portadaCasas.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.barrioNaon {
+  padding-top: 200px;
+  background-image: url(../img/galeria2/barrioNaonPortada.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pedroMoran {
+  padding-top: 200px;
+  background-image: url(../img/galeria3/pedroMoranPortada.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1 {
+  font-family: 'montserrat', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 90px;
+}
+
+.jumbotron p {
+  color: white;
+  font-family: 'nunito', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  
+}
+
+.casasTabs {
+  font-family:'montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.casasGrid {
+  justify-content: center;
+}
+
+
+
+/*Pantalla celular*/
+@media only screen and (min-width: 320px) {
+
+  .textoSlide {
+    width: 80%;
+    font-family: 'poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+
+  .trabajos h2 {
+    padding-top: 30px;
+    color: #ba0c2f;
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .textoTrabajo1 h4 {
+    font-size: 16px;
+  }
+
+  /*QUIENES SOMOS*/
+
+  section .quienesSomos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quienesSomosTexto {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+  }
+
+  .acercaDe h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ba0c2f;
+
+  }
+
+  .quienesSomosTexto p {
+    font-size: 16px;
+  }
+
+  .quienesSomosTexto p span {
+    font-family: 'azonix', sans-serif;
+  }
+
+  .quienesSomosImg img {
+    width: 100%;
+  }
+
+  /*QUE HACEMOS*/
+
+  .queHacemos h2 {
+    font-size: 30px;
+  }
+
+  .queHacemos h4 {
+    font-size: 22px;
+  }
+.queHacemosCosas img {
+  padding: 40px;
+}
+
+.queHacemosCosas .textoCosas {
+  margin-top: -40px;
+} 
+.diseñoMobiliario {
+  padding-bottom: 20px;
+}
+
+
+  .jumbotron h1 {
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+  }
+  .jumbotron p {
+    color: white;
+    font-family: 'nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    
+  }
+
+  .proyectosGrid {
+    display: none;
+  }
+  .casaCissab165 {
+    display: none;
+  }
+  .casaCissab196 {
+    display: none;
+  }
+  .casaElEncuentro {
+    display: none;
+  }
+  .casaMagnolias {
+    display: none;
+  }
+  .casaLaProvidencia {
+    display: none;
+  }
+}
+
+/*Pantalla tablet*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .textoSlide {
+    width: 80%;
+    font-family: 'poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+
+  /*QUIENES SOMOS*/
+
+  section .quienesSomos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .quienesSomosTexto {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+  }
+
+  .acercaDe h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ba0c2f;
+
+  }
+
+  .quienesSomosTexto p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .quienesSomosTexto p span {
+    font-family: 'azonix', sans-serif;
+  }
+
+  .quienesSomosImg img {
+    width: 100%;
+  }
+
+  /*QUE HACEMOS*/
+
+  .queHacemos h2 {
+    font-size: 30px;
+  }
+
+  .queHacemos h4 {
+    font-size: 18px;
+  }
+
+  .queHacemosCosas {
+    padding: 15px
+  }
+
+  .queHacemosCosas img {
+    padding: 0px;
+  }
+  
+  .queHacemosCosas .textoCosas {
+    margin-top: 0px;
+  } 
+  .diseñoMobiliario {
+    padding-bottom: 0px;
+  }
+
+  .proyectosGrid {
+    display: none;
+  }
+  .casaCissab165 {
+    display: none;
+  }
+  .casaCissab196 {
+    display: none;
+  }
+  .casaElEncuentro {
+    display: none;
+  }
+  .casaMagnolias {
+    display: none;
+  }
+  .casaLaProvidencia {
+    display: none;
+  }
+
+    
+}
+
+/*Pantalla notebook*/
+@media only screen and (min-width: 768px) {
+  .textoSlide {
+    width: 80%;
+    font-family: 'poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+
+  .trabajos h2 {
+    padding-top: 30px;
+    color: #ba0c2f;
+    font-family: 'poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .proyectosGrid {
+    display: flex;
+  }
+
+/*QUIENES SOMOS*/
+  section .quienesSomos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .quienesSomosTexto {
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+  }
+
+  .acercaDe h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ba0c2f;
+
+  }
+
+  .quienesSomosTexto p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .quienesSomosTexto p span {
+    font-family: 'azonix', sans-serif;
+  }
+
+  .quienesSomosImg {
+    width: 100%;
+  }
+
+  .quienesSomosImg img {
+    width: 100%;
+  }
+
+  /*QUE HACEMOS*/
+  .queHacemos h2 {
+    font-size: 40px;
+  }
+
+  .queHacemos h4 {
+    font-size: 18px;
+  }
+
+  .queHacemosCosas {
+    padding: 0px
+  }
+
+  .casas {
+    padding-bottom: 40px;
+  }
+  .propiedadHorizontal {
+    padding-bottom: 40px;
+  }
+
+  .localesComerciales {
+    padding-bottom: 40px;
+  }
+
+  .queHacemosCosas img {
+    padding: 0px;
+  }
+  
+  .queHacemosCosas .textoCosas {
+    margin-top: 0px;
+  } 
+  .diseñoMobiliario {
+    padding-bottom: 0px;
+  }
+
+  .jumbotron h1 {
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 90px;
+  }
+  .jumbotron p {
+    color: white;
+    font-family: 'nunito', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    
+  }
+
+  .modal-dialog {
+    max-width: 640px;
+  }
+
+
+  /*FOOTER*/
+
+  .direccion {
+    font-size: 20px;
+  }
+  
+  footer .telefonos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .telefonos p {
+    font-size: 20px;
+  }
+  
+  footer div a {
+    color: white;
+    font-size: 20px;
+    font-family: 'nunito', sans-serif;
+  }
+
+  .casaCissab165 {
+    display: flex;
+  }
+  .casaCissab196 {
+    display: flex;
+  }
+  .casaElEncuentro {
+    display: flex;
+  }
+  .casaMagnolias {
+    display: flex;
+  }
+  .casaLaProvidencia {
+    display: flex;
+  }
+}
+
+/*Pantalla Desktop*/
+@media only screen and (min-width: 992px) {
+
+  .textoSlide {
+    width: 80%;
+    font-family: 'poppins', sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+
+  .trabajos h2 {
+    padding-top: 30px;
+    color: #ba0c2f;
+    font-family: 'poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .textoTrabajo1 h4 {
+    font-size: 20px;
+  }
+
+  /*QUIENES SOMOS*/
+  section .quienesSomos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+  .quienesSomosTexto {
+    width: 45%;
+    font-family: 'poppins', sans-serif;
+  }
+
+  .acercaDe h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #ba0c2f;
+    padding-bottom: 20px;
+
+  }
+
+  .quienesSomosTexto p {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .quienesSomosTexto p span {
+    font-family: 'azonix', sans-serif;
+  }
+
+  .quienesSomosImg {
+    width: 45%;
+  }
+
+  .quienesSomosImg img {
+    width: 100%;
+  }
+
+  /*QUE HACEMOS*/
+
+  .queHacemos h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #ba0c2f;
+  }
+
+  .queHacemosCosas {
+    padding: 50px;
+  }
+
+  .queHacemosCosas h4 {
+    text-align: center;
+    font-family: 'nunito', sans-serif;
+    color: #ba0c2f;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .jumbotron p {
+    color: white;
+    font-family: 'nunito', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    
+  }
+
+  .proyectosGrid {
+    display: flex;
+  }
+
+  .casaCissab165 {
+    display: flex;
+  }
+  .casaCissab196 {
+    display: flex;
+  }
+  .casaElEncuentro {
+    display: flex;
+  }
+  .casaMagnolias {
+    display: flex;
+  }
+  .casaLaProvidencia {
+    display: flex;
+  }
+
+  /*FOOTER*/
+  footer {
+    padding-top: 30px;
+  }
+
+  footer div .logo {
+    font-family: 'azonix', sans-serif;
+    font-size: 30px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #ba0c2f;
+  }
+
+  footer div p {
+    font-family: 'nunito', sans-serif;
+    font-size: 20px;
+  }
+
+  footer .telefonos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  footer div a {
+    color: white;
+    font-size: 20px;
+    font-family: 'nunito', sans-serif;
+  }
+
+  footer div a:hover {
+    color: #ba0c2f;
+    font-weight: 500;
+    text-decoration: none;
+
+  }
+
+  .menuRedesFooter ul li a i:hover {
+    color: #ba0c2f;
+    transform: scale(1.2);
+    transition-duration: 1s;
+
+  }
+
+  .firma p,
+  .firma p a {
+    font-size: 14px;
+    display: inline;
+    padding: 5px;
+    color: wheat;
+    text-decoration: none;
+  }
+
+  footer span p:hover {
+    background-color: grey;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    ;
+  }
+
+  footer span p a:hover {
+    color: #ba0c2f;
+  }
+
+  .modal-dialog {
+    max-width: 720px;
+  }
+}
+
+
+
+

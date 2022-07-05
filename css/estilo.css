@@ -36,7 +36,7 @@ html {
   font-family: 'nunito', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  color:white;
+  color: white;
 }
 
 .itemsMenu:hover {
@@ -136,7 +136,7 @@ html {
   padding-top: 10px;
 }
 
-.proyectosTextoSlider  {
+.proyectosTextoSlider {
   font-family: 'nunito', sans-serif;
   font: 25px;
   font-weight: 600;
@@ -328,11 +328,11 @@ footer span p a:hover {
   font-family: 'nunito', sans-serif;
   font-weight: 600;
   font-size: 25px;
-  
+
 }
 
 .casasTabs {
-  font-family:'montserrat', sans-serif;
+  font-family: 'montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -340,6 +340,11 @@ footer span p a:hover {
   justify-content: center;
 }
 
+h3 {
+  color: #ba0c2f;
+  font-weight: 600;
+  font-family: 'poppins', sans-serif;
+}
 
 
 /*Pantalla celular*/
@@ -410,16 +415,18 @@ footer span p a:hover {
   .queHacemos h4 {
     font-size: 22px;
   }
-.queHacemosCosas img {
-  padding: 40px;
-}
 
-.queHacemosCosas .textoCosas {
-  margin-top: -40px;
-} 
-.diseñoMobiliario {
-  padding-bottom: 20px;
-}
+  .queHacemosCosas img {
+    padding: 40px;
+  }
+
+  .queHacemosCosas .textoCosas {
+    margin-top: -40px;
+  }
+
+  .diseñoMobiliario {
+    padding-bottom: 20px;
+  }
 
 
   .jumbotron h1 {
@@ -428,29 +435,35 @@ footer span p a:hover {
     font-weight: 700;
     font-size: 60px;
   }
+
   .jumbotron p {
     color: white;
     font-family: 'nunito', sans-serif;
     font-weight: 600;
     font-size: 18px;
-    
+
   }
 
   .proyectosGrid {
     display: none;
   }
+
   .casaCissab165 {
     display: none;
   }
+
   .casaCissab196 {
     display: none;
   }
+
   .casaElEncuentro {
     display: none;
   }
+
   .casaMagnolias {
     display: none;
   }
+
   .casaLaProvidencia {
     display: none;
   }
@@ -521,10 +534,11 @@ footer span p a:hover {
   .queHacemosCosas img {
     padding: 0px;
   }
-  
+
   .queHacemosCosas .textoCosas {
     margin-top: 0px;
-  } 
+  }
+
   .diseñoMobiliario {
     padding-bottom: 0px;
   }
@@ -532,23 +546,28 @@ footer span p a:hover {
   .proyectosGrid {
     display: none;
   }
+
   .casaCissab165 {
     display: none;
   }
+
   .casaCissab196 {
     display: none;
   }
+
   .casaElEncuentro {
     display: none;
   }
+
   .casaMagnolias {
     display: none;
   }
+
   .casaLaProvidencia {
     display: none;
   }
 
-    
+
 }
 
 /*Pantalla notebook*/
@@ -574,7 +593,7 @@ footer span p a:hover {
     display: flex;
   }
 
-/*QUIENES SOMOS*/
+  /*QUIENES SOMOS*/
   section .quienesSomos {
     width: 100%;
     display: flex;
@@ -630,6 +649,7 @@ footer span p a:hover {
   .casas {
     padding-bottom: 40px;
   }
+
   .propiedadHorizontal {
     padding-bottom: 40px;
   }
@@ -641,10 +661,11 @@ footer span p a:hover {
   .queHacemosCosas img {
     padding: 0px;
   }
-  
+
   .queHacemosCosas .textoCosas {
     margin-top: 0px;
-  } 
+  }
+
   .diseñoMobiliario {
     padding-bottom: 0px;
   }
@@ -655,12 +676,13 @@ footer span p a:hover {
     font-weight: 700;
     font-size: 90px;
   }
+
   .jumbotron p {
     color: white;
     font-family: 'nunito', sans-serif;
     font-weight: 600;
     font-size: 22px;
-    
+
   }
 
   .modal-dialog {
@@ -673,18 +695,18 @@ footer span p a:hover {
   .direccion {
     font-size: 20px;
   }
-  
+
   footer .telefonos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
+
   footer .telefonos p {
     font-size: 20px;
   }
-  
+
   footer div a {
     color: white;
     font-size: 20px;
@@ -694,15 +716,19 @@ footer span p a:hover {
   .casaCissab165 {
     display: flex;
   }
+
   .casaCissab196 {
     display: flex;
   }
+
   .casaElEncuentro {
     display: flex;
   }
+
   .casaMagnolias {
     display: flex;
   }
+
   .casaLaProvidencia {
     display: flex;
   }
@@ -799,7 +825,7 @@ footer span p a:hover {
     font-family: 'nunito', sans-serif;
     font-weight: 600;
     font-size: 25px;
-    
+
   }
 
   .proyectosGrid {
@@ -809,15 +835,19 @@ footer span p a:hover {
   .casaCissab165 {
     display: flex;
   }
+
   .casaCissab196 {
     display: flex;
   }
+
   .casaElEncuentro {
     display: flex;
   }
+
   .casaMagnolias {
     display: flex;
   }
+
   .casaLaProvidencia {
     display: flex;
   }
@@ -893,7 +923,3 @@ footer span p a:hover {
     max-width: 720px;
   }
 }
-
-
-
-

@@ -346,7 +346,10 @@ h3 {
   font-family: 'poppins', sans-serif;
 }
 
-
+.proyectosTextoSlider {
+    background-color: rgba(11, 12, 11, 0.4);
+    border-radius: 5px;
+}
 /*Pantalla celular*/
 @media only screen and (min-width: 320px) {
 

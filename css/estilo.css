@@ -301,19 +301,13 @@ footer span p a:hover {
   background-position: center;
 }
 
-.barrioNaon {
+.propiedadHorizontalPage {
   padding-top: 200px;
-  background-image: url(../img/galeria2/barrioNaonPortada.jpeg);
+  background-image: url(../img/propiedadHorizontal/pedroMoranPortada.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.pedroMoran {
-  padding-top: 200px;
-  background-image: url(../img/galeria3/pedroMoranPortada.jpg);
-  background-size: cover;
-  background-position: center;
-}
 
 .jumbotron h1 {
   font-family: 'montserrat', sans-serif;
@@ -469,6 +463,10 @@ h3 {
   .casaLaProvidencia {
     display: none;
   }
+
+  .phColonia {
+    display: none;
+  }
 }
 
 /*Pantalla tablet*/
@@ -569,6 +567,9 @@ h3 {
     display: none;
   }
 
+  .phColonia {
+    display: none;
+  }
 
 }
 
@@ -734,6 +735,10 @@ h3 {
   .casaLaProvidencia {
     display: flex;
   }
+
+  .phColonia {
+    display: flex;
+  }
 }
 
 /*Pantalla Desktop*/
@@ -827,7 +832,6 @@ h3 {
     font-family: 'nunito', sans-serif;
     font-weight: 600;
     font-size: 25px;
-
   }
 
   .proyectosGrid {
@@ -851,6 +855,10 @@ h3 {
   }
 
   .casaLaProvidencia {
+    display: flex;
+  }
+
+  .phColonia {
     display: flex;
   }
 

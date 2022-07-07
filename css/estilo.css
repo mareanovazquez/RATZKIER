@@ -467,6 +467,9 @@ h3 {
   .phColonia {
     display: none;
   }
+  .phPedroMoran {
+    display: none;
+  }
 }
 
 /*Pantalla tablet*/
@@ -571,6 +574,9 @@ h3 {
     display: none;
   }
 
+  .phPedroMoran {
+    display: none;
+  }
 }
 
 /*Pantalla notebook*/
@@ -739,6 +745,10 @@ h3 {
   .phColonia {
     display: flex;
   }
+
+  .phPedroMoran {
+    display: flex;
+  }
 }
 
 /*Pantalla Desktop*/
@@ -859,6 +869,10 @@ h3 {
   }
 
   .phColonia {
+    display: flex;
+  }
+
+  .phPedroMoran {
     display: flex;
   }
 

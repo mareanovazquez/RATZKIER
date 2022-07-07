@@ -110,13 +110,13 @@ html {
 }
 
 .trabajo {
-  padding: 30px;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  color: white;
+  
+  color:black;
 
 }
 
@@ -124,7 +124,6 @@ html {
   filter: grayscale(100%);
   transform: scale(0.95);
   transition-duration: 1s;
-  color: black
 }
 
 .proyectos {

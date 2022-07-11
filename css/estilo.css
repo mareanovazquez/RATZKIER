@@ -308,6 +308,13 @@ footer span p a:hover {
   background-position: center;
 }
 
+.localesComercialesPage {
+  padding-top: 200px;
+  background-image: url(../img/localesComerciales/localesComercialesPortada.png);
+  background-size: cover;
+  background-position: center;
+}
+
 
 .jumbotron h1 {
   font-family: 'montserrat', sans-serif;
@@ -470,6 +477,10 @@ h3 {
   .phPedroMoran {
     display: none;
   }
+
+  .localGuinche21 {
+    display: none;
+  }
 }
 
 /*Pantalla tablet*/
@@ -575,6 +586,10 @@ h3 {
   }
 
   .phPedroMoran {
+    display: none;
+  }
+
+  .localGuinche21 {
     display: none;
   }
 }
@@ -749,6 +764,10 @@ h3 {
   .phPedroMoran {
     display: flex;
   }
+
+  .localGuinche21 {
+    display: flex;
+  }
 }
 
 /*Pantalla Desktop*/
@@ -873,6 +892,10 @@ h3 {
   }
 
   .phPedroMoran {
+    display: flex;
+  }
+
+  .localGuinche21 {
     display: flex;
   }
 

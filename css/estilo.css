@@ -315,6 +315,13 @@ footer span p a:hover {
   background-position: center;
 }
 
+.industriaPage {
+  padding-top: 200px;
+  background-image: url(../img/industriaOficina/industriaPortada.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 
 .jumbotron h1 {
   font-family: 'montserrat', sans-serif;
@@ -481,6 +488,20 @@ h3 {
   .localGuinche21 {
     display: none;
   }
+
+  .localLaPrimavera {
+    display: none;
+  }
+
+  .industriaPilar {
+    display:none;
+  }
+  .industriaPilarSpa {
+    display: none;
+  }
+  .industriaMesucan {
+    display: none;
+  }
 }
 
 /*Pantalla tablet*/
@@ -590,6 +611,20 @@ h3 {
   }
 
   .localGuinche21 {
+    display: none;
+  }
+
+  .localLaPrimavera {
+    display: none;
+  }
+
+  .industriaPilar {
+    display:none;
+  }
+  .industriaPilarSpa {
+    display: none;
+  }
+  .industriaMesucan {
     display: none;
   }
 }
@@ -768,6 +803,21 @@ h3 {
   .localGuinche21 {
     display: flex;
   }
+
+  .localLaPrimavera {
+    display: flex;
+  }
+  .industriaPilar {
+    display:flex;
+  }
+  .industriaPilarSpa {
+    display: flex;
+  }
+  .industriaMesucan {
+    display: flex;
+  }
+
+  
 }
 
 /*Pantalla Desktop*/
@@ -898,7 +948,18 @@ h3 {
   .localGuinche21 {
     display: flex;
   }
-
+  .localLaPrimavera {
+    display: flex;
+  }
+  .industriaPilar {
+    display:flex;
+  }
+  .industriaPilarSpa {
+    display: flex;
+  }
+  .industriaMesucan {
+    display: flex;
+  }
   /*FOOTER*/
   footer {
     padding-top: 30px;

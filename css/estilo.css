@@ -329,6 +329,13 @@ footer span p a:hover {
   background-position: center;
 }
 
+.decoracionPage {
+  padding-top: 200px;
+  background-image: url(../img/decoracion/decoracionPortada.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .jumbotron h1 {
   font-family: 'montserrat', sans-serif;
   color: white;
@@ -342,11 +349,6 @@ footer span p a:hover {
   font-weight: 600;
   font-size: 25px;
 
-}
-
-.casasTabs {
-  font-family: 'montserrat', sans-serif;
-  font-weight: 500;
 }
 
 .casasGrid {
@@ -515,6 +517,16 @@ h3 {
   .remodelacionQuesada {
     display:none;
   }
+  
+  .decoracionSantaFe {
+    display: none;
+  }
+  .decoracionBebe {
+    display: none;
+  }
+  .decoracionAdolescente {
+    display: none;
+  }
 }
 
 /*Pantalla tablet*/
@@ -646,6 +658,16 @@ h3 {
   }
   .remodelacionQuesada {
     display:none;
+  }
+
+  .decoracionSantaFe {
+    display: none;
+  }
+  .decoracionBebe {
+    display: none;
+  }
+  .decoracionAdolescente {
+    display: none;
   }
 }
 
@@ -844,6 +866,16 @@ h3 {
     display:flex;
   }
 
+  .decoracionSantaFe {
+    display: flex;
+  }
+  .decoracionBebe {
+    display: flex;
+  }
+  .decoracionAdolescente {
+    display: flex;
+  }
+
   
 }
 
@@ -993,6 +1025,15 @@ h3 {
   }
   .remodelacionQuesada {
     display:flex;
+  }
+  .decoracionSantaFe {
+    display: flex;
+  }
+  .decoracionBebe {
+    display: flex;
+  }
+  .decoracionAdolescente {
+    display: flex;
   }
   /*FOOTER*/
   footer {

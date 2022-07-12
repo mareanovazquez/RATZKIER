@@ -322,6 +322,12 @@ footer span p a:hover {
   background-position: center;
 }
 
+.refaccionesPage {
+  padding-top: 200px;
+  background-image: url(../img/remodelaciones/remodelacionesPortada.png);
+  background-size: cover;
+  background-position: center;
+}
 
 .jumbotron h1 {
   font-family: 'montserrat', sans-serif;
@@ -502,6 +508,13 @@ h3 {
   .industriaMesucan {
     display: none;
   }
+
+  .remodelacionPizarro {
+    display: none;
+  }
+  .remodelacionQuesada {
+    display:none;
+  }
 }
 
 /*Pantalla tablet*/
@@ -626,6 +639,13 @@ h3 {
   }
   .industriaMesucan {
     display: none;
+  }
+
+  .remodelacionPizarro {
+    display: none;
+  }
+  .remodelacionQuesada {
+    display:none;
   }
 }
 
@@ -817,6 +837,13 @@ h3 {
     display: flex;
   }
 
+  .remodelacionPizarro {
+    display: flex;
+  }
+  .remodelacionQuesada {
+    display:flex;
+  }
+
   
 }
 
@@ -959,6 +986,13 @@ h3 {
   }
   .industriaMesucan {
     display: flex;
+  }
+
+  .remodelacionPizarro {
+    display: flex;
+  }
+  .remodelacionQuesada {
+    display:flex;
   }
   /*FOOTER*/
   footer {

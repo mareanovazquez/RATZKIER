@@ -155,6 +155,7 @@ html {
   text-align: center;
   font-weight: 700;
   color: #ba0c2f;
+  padding-top: 30px;
 }
 
 .queHacemosCosas h4 {
@@ -409,6 +410,7 @@ h3 {
     font-size: 30px;
     font-weight: 700;
     color: #ba0c2f;
+    padding-top: 60px;
 
   }
 
@@ -428,6 +430,7 @@ h3 {
 
   .queHacemos h2 {
     font-size: 30px;
+    padding-top: 60px;
   }
 
   .queHacemos h4 {
@@ -714,6 +717,7 @@ h3 {
     font-size: 40px;
     font-weight: 700;
     color: #ba0c2f;
+    padding-top: 30px;
 
   }
 
@@ -737,6 +741,7 @@ h3 {
   /*QUE HACEMOS*/
   .queHacemos h2 {
     font-size: 40px;
+    padding-top: 30px;
   }
 
   .queHacemos h4 {

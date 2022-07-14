@@ -297,14 +297,14 @@ footer span p a:hover {
 
 .casasPage {
   padding-top: 200px;
-  background-image: url(../img/casas/portadaCasas.JPG);
+  background-image: url(../img/casas/portadaCasas.png);
   background-size: cover;
   background-position: center;
 }
 
 .propiedadHorizontalPage {
   padding-top: 200px;
-  background-image: url(../img/propiedadHorizontal/pedroMoranPortada.jpg);
+  background-image: url(../img/propiedadHorizontal/portadaPropiedadHorizontal.png);
   background-size: cover;
   background-position: center;
 }
@@ -318,7 +318,7 @@ footer span p a:hover {
 
 .industriaPage {
   padding-top: 200px;
-  background-image: url(../img/industriaOficina/industriaPortada.jpg);
+  background-image: url(../img/industriaOficina/industriaPortada.png);
   background-size: cover;
   background-position: center;
 }
@@ -379,7 +379,7 @@ h3 {
   }
 
   .trabajos h2 {
-    padding-top: 30px;
+    padding-top: 65px;
     color: #ba0c2f;
     font-family: 'poppins', sans-serif;
     font-size: 30px;
@@ -410,7 +410,7 @@ h3 {
     font-size: 30px;
     font-weight: 700;
     color: #ba0c2f;
-    padding-top: 60px;
+    padding-top: 65px;
 
   }
 
@@ -430,7 +430,7 @@ h3 {
 
   .queHacemos h2 {
     font-size: 30px;
-    padding-top: 60px;
+    padding-top: 65px;
   }
 
   .queHacemos h4 {
@@ -530,6 +530,9 @@ h3 {
   .decoracionAdolescente {
     display: none;
   }
+  .firma p {
+    font-size: 10px;
+  }
 }
 
 /*Pantalla tablet*/
@@ -564,6 +567,7 @@ h3 {
     font-size: 30px;
     font-weight: 700;
     color: #ba0c2f;
+    padding-top: 60px;
 
   }
 
@@ -584,6 +588,7 @@ h3 {
 
   .queHacemos h2 {
     font-size: 30px;
+    padding-top: 65px;
   }
 
   .queHacemos h4 {
@@ -686,7 +691,7 @@ h3 {
   }
 
   .trabajos h2 {
-    padding-top: 30px;
+    padding-top: 65px;
     color: #ba0c2f;
     font-family: 'poppins', sans-serif;
     font-size: 40px;
@@ -717,7 +722,7 @@ h3 {
     font-size: 40px;
     font-weight: 700;
     color: #ba0c2f;
-    padding-top: 30px;
+    padding-top: 65px;
 
   }
 
@@ -741,7 +746,7 @@ h3 {
   /*QUE HACEMOS*/
   .queHacemos h2 {
     font-size: 40px;
-    padding-top: 30px;
+    padding-top: 65px;
   }
 
   .queHacemos h4 {
@@ -897,7 +902,7 @@ h3 {
   }
 
   .trabajos h2 {
-    padding-top: 30px;
+    padding-top: 65px;
     color: #ba0c2f;
     font-family: 'poppins', sans-serif;
     font-size: 45px;
@@ -928,6 +933,7 @@ h3 {
     font-size: 45px;
     font-weight: 700;
     color: #ba0c2f;
+    padding-top: 65px;
     padding-bottom: 20px;
 
   }
@@ -956,6 +962,7 @@ h3 {
     font-size: 45px;
     font-weight: 700;
     color: #ba0c2f;
+    padding-top: 65px;
   }
 
   .queHacemosCosas {

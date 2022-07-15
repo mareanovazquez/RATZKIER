@@ -443,7 +443,7 @@ h3 {
 
   .queHacemosCosas .textoCosas {
     margin-top: -40px;
-  }
+  } 
 
   .diseñoMobiliario {
     padding-bottom: 20px;
@@ -454,7 +454,7 @@ h3 {
     font-family: 'montserrat', sans-serif;
     color: white;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 43px;
   }
 
   .jumbotron p {
@@ -462,8 +462,7 @@ h3 {
     font-family: 'nunito', sans-serif;
     font-weight: 600;
     font-size: 18px;
-
-  }
+}
 
   .proyectosGrid {
     display: none;
